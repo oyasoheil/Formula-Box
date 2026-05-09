@@ -16,5 +16,6 @@ Clean text that contains extra spaces.
 ```excel
 =TRIM(A1)
 ```
-**Explanation**
+**Explanation:**
+
 Removes leading spaces, trailing spaces, and repeated spaces between words.
