@@ -6,11 +6,13 @@ Get the text before a specific character (for example before `-` in a product co
 **Formula:**
 ```excel
 =LEFT(A1, FIND("-", A1)-1)
+```
 
 ### Use case:
 Clean text that contains extra spaces.
 **Formula:**
 ```excel
 =TRIM(A1)
-** Explanation **
+```
+**Explanation**
 Removes leading spaces, trailing spaces, and repeated spaces between words.
